@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS LIM SISTEM - Građevinska limarija</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AS LIM SISTEM</h1>
+        <p>Stručnjaci za građevinsku limariju</p>
+    </header>
+    <nav>
+        <a href="#usluge">Usluge</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="container">
+        <h2 id="usluge">Naše Usluge</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>Postavljanje oluka</h3>
+                <p>Profesionalna ugradnja oluka i odvodnih sistema.</p>
+            </div>
+            <div class="service-box">
+                <h3>Krovopokrivački radovi</h3>
+                <p>Kvalitetni krovni radovi sa dugotrajnom zaštitom.</p>
+            </div>
+        </div>
+        <h2 id="kontakt">Kontakt</h2>
+        <p>📞 Telefon: 060/123-4567</p>
+        <p>📧 Email: info@aslimsistem.rs</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 AS LIM SISTEM. Sva prava zadržana.</p>
+    </footer>
+</body>
+</html>
